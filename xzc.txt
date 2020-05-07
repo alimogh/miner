@@ -1,0 +1,11 @@
+
+{
+"pools" :
+[
+	{
+		"pool" : "asia-xzc.2miners.com:8080", 
+		"wallet" : "aFh5VinuzoyzmFaYpd34GGwmEQSbNukgpA",
+		"password" : "x"
+	}
+]
+}
