@@ -1,0 +1,282 @@
+/*
+Rename this file to algorithms.txt if you want to use the algorithm switching capability of the miner.
+This means that you can set the algorithm for a pool, and the miner will automatically restart & load the configuration files you defined here for that algorithm.
+You can't use cmd gpu & pool parameters if you want to use algorithm switching! Algorithm switching can be only used with '--config-file' parameter.
+'--config-file' should point to the configuration file of the first entry in the pools file (main pool).
+
+Also this configuration file is used when mining on a pool that supports algorithm negotiation protocol (Monero Ocean for example).
+It can also run a script at startup (before mining), that can for example call overdriventool to set the gpu's for this algorithm.
+
+
+Example for multi-algo setup:
+
+1) Pools\multi-pools.txt:
+
+{
+"pools" :
+[
+	{
+		"pool" : "monero_pool", 
+		"wallet" : "monero_wallet",
+		"password" : "x",
+		"algorithm" : "randomx"
+	},
+	{
+		"pool" : "loki_pool", 
+		"wallet" : "loki_wallet",
+		"password" : "x",
+		"algorithm" : "randomxl"
+	},
+	{
+		"pool" : "yespower2b_pool", 
+		"wallet" : "yespower2b_wallet",
+		"password" : "x",
+		"algorithm" : "yespower2b"
+	}
+]
+}
+
+2) Note that randomx is the algorithm to the first (main) pool. You need to point '--config-file' to this algorithms configuration file! (example: Config\config-randomx.txt)
+
+You can start miner with :
+SRBMiner-MULTI.exe --config-file Config\config-randomx.txt --pools-file Pools\multi-pools.txt
+
+3) Algorithms.txt should now be set
+
+Parameters:
+
+"algorithm" 		: name of the algorithm [ run miner with --list-algorithms to see available]
+"config"		: path to the configuration file to use for this algorithm
+"startup_script"	: path to the startup script that you want to run on miner startup
+"hashrate"		: hashrate of your system on this algorithm. Used only with pool side initiated algorithm switch
+
+*/
+
+
+{
+"algorithms" :
+[
+        {
+                "algorithm" : "bl2bsha3",
+                "config" : "./Config/config-bl2bsha3.txt",
+                "startup_script": "",
+                "hashrate" : 1
+        },
+	{
+		"algorithm" : "blake2b",
+		"config" : "./Config/config-blake2b.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+		{
+		"algorithm" : "blake2s",
+		"config" : "./Config/config-blake2s.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "cpupower",
+		"config" : "./Config/config-cpupower.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "k12",
+		"config" : "./Config/config-k12.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "kadena",
+		"config" : "./Config/config-kadena.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "keccak",
+		"config" : "./Config/config-keccak.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "m7mv2",
+		"config" : "./Config/config-m7mv2.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "mtp",
+		"config" : "./Config/config-mtp.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "randomarq",
+		"config" : "./Config/config-randomarq.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "randomwow",
+		"config" : "./Config/config-randomwow.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "randomx",
+		"config" : "./Config/config-randomx.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "randomxl",
+		"config" : "./Config/config-randomxl.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "randomsfx",
+		"config" : "./Config/config-randomsfx.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "rainforestv2",
+		"config" : "./Config/config-rfv2.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yescrypt",
+		"config" : "./Config/config-yescrypt.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yescryptr8",
+		"config" : "./Config/config-yescryptr8.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yescryptr16",
+		"config" : "./Config/config-yescryptr16.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yescryptr32",
+		"config" : "./Config/config-yescryptr32.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yespower",
+		"config" : "./Config/config-yespower.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yespoweric",
+		"config" : "./Config/config-yespoweric.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yespoweriots",
+		"config" : "./Config/config-yespoweriots.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yespowerlitb",
+		"config" : "./Config/config-yespowerlitb.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yespowerr16",
+		"config" : "./Config/config-yespowerr16.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "eaglesong",
+		"config" : "./Config/config-eaglesong.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yespower2b",
+		"config" : "./Config/config-yespower2b.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yespowerltncg",
+		"config" : "./Config/config-yespowerltncg.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yespowersugar",
+		"config" : "./Config/config-yespowersugar.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yespowerurx",
+		"config" : "./Config/config-yespowerurx.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "defyx",
+		"config" : "./Config/config-defyx.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "yespoweritc",
+		"config" : "./Config/config-yespoweritc.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "cryptonight_bbc",
+		"config" : "./Config/config-cryptonight-bbc.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "cryptonight_catalans",
+		"config" : "./Config/config-cryptonight-catalans.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+	{
+		"algorithm" : "cryptonight_talleo",
+		"config" : "./Config/config-cryptonight-talleo.txt",
+		"startup_script": "",
+		"hashrate" : 1
+	},
+        {
+                "algorithm" : "minotaur",
+                "config" : "./Config/config-minotaur.txt",
+                "startup_script": "",
+                "hashrate" : 1
+        },
+        {
+                "algorithm" : "yespowerres",
+                "config" : "./Config/config-yespowerres.txt",
+                "startup_script": "",
+                "hashrate" : 1
+        },
+        {
+                "algorithm" : "tellor",
+                "config" : "./Config/config-tellor.txt",
+                "startup_script": "",
+                "hashrate" : 1
+        }
+]
+}
