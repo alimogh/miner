@@ -1,0 +1,10 @@
+{
+"pools" :
+[
+	{
+		"pool" : "hashpex.com:3331", 
+		"wallet" : "LQjVuv4J1q3ZM3EKR65PC81wvixP5qDirG",
+		"password" : "x"
+	}
+]
+}
