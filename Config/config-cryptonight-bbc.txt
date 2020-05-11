@@ -1,0 +1,5 @@
+{
+"algorithm" : "cryptonight_bbc",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

@@ -1,0 +1,5 @@
+{
+"algorithm" : "bl2bsha3",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

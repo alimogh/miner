@@ -1,0 +1,5 @@
+{
+"algorithm" : "blake2s",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

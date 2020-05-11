@@ -1,0 +1,5 @@
+{
+"algorithm" : "yescryptr32",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

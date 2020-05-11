@@ -1,0 +1,5 @@
+{
+"algorithm" : "randomkeva",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

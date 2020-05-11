@@ -1,0 +1,5 @@
+{
+"algorithm" : "yespowerres",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

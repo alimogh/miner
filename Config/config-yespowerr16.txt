@@ -1,0 +1,5 @@
+{
+"algorithm" : "yespowerr16",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

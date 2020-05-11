@@ -1,0 +1,5 @@
+{
+"algorithm" : "eaglesong",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

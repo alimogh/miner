@@ -1,0 +1,5 @@
+{
+"algorithm" : "randomxl",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

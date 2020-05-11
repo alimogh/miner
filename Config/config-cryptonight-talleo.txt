@@ -1,0 +1,5 @@
+{
+"algorithm" : "cryptonight_talleo",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

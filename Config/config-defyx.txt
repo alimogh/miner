@@ -1,0 +1,5 @@
+{
+"algorithm" : "defyx",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

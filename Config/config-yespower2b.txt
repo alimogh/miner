@@ -1,0 +1,5 @@
+{
+"algorithm" : "yespower2b",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

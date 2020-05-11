@@ -1,0 +1,5 @@
+{
+"algorithm" : "yespoweriots",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

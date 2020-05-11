@@ -1,0 +1,5 @@
+{
+"algorithm" : "cryptonight_catalans",
+"disable_cpu" : false,
+"disable_gpu" : false
+}

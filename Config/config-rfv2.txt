@@ -1,0 +1,5 @@
+{
+"algorithm" : "rfv2",
+"disable_cpu" : false,
+"disable_gpu" : false
+}
