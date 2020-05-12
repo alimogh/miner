@@ -1,5 +1,6 @@
 {
 "algorithm" : "cpupower",
+"cpu_threads":"2",
 "disable_cpu" : false,
 "disable_gpu" : false
 }
