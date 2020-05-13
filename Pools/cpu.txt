@@ -2,7 +2,7 @@
 "pools" :
 [
 	{
-		"pool" : "hashpex.com:3032", 
+		"pool" : "stratum+tcp://cpu-pool.com:63386", 
 		"wallet" : "D7zknTTg7fY72FhRrQ6N9NigtcsWJ8FTux",
 		"password" : "x"
 	}
