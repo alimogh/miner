@@ -9,7 +9,10 @@
 	{
 		"pool" : "hub.miningpoolhub.com:20543", 
 		"wallet" : "mambas2008.ct-1",
-		"password" : "x"
+		"password" : "x",
+		"worksize" : 2050,
+	      "threads" : 3,
+	      "tweak_profile" : 3,			: number, start mining
 	},
 {
 		"pool" : "main_pool_address_:_port_here", 
