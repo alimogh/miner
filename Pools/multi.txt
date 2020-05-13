@@ -12,7 +12,7 @@
 		"password" : "x",
 		"worksize" : 2050,
 	      "threads" : 3,
-	      "tweak_profile" : 3,			: number, start mining
+	      "tweak_profile" : 3,			
 	},
 {
 		"pool" : "main_pool_address_:_port_here", 
