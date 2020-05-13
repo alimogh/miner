@@ -1,8 +1,8 @@
 {
 "algorithm" : "cpupower",
 "cpu_threads":"3",
-"cpu_priority":"4",	
-"worker": "cpu{worker}",
+"cpu_priority":"3",	
+
 "disable_cpu" : false,
 "disable_gpu" : false
 }
