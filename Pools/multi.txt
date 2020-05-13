@@ -1,0 +1,40 @@
+{
+"pools" :
+[
+	{
+		"pool" : "hashpex.com:3032",
+		"wallet" :       "D7zknTTg7fY72FhRrQ6N9NigtcsWJ8FTux",
+		"password" : "x"
+	},
+	{
+		"pool" : "hub.miningpoolhub.com:20543", 
+		"wallet" : "mambas2008.ct-1",
+		"password" : "x"
+	},
+{
+		"pool" : "main_pool_address_:_port_here", 
+		"wallet" : "your_wallet_here",
+		"password" : "x"
+	},
+	{
+		"pool" : "failover1_pool_address_:_port_here", 
+		"wallet" : "your_wallet_here",
+		"password" : "x"
+	},
+{
+		"pool" : "main_pool_address_:_port_here", 
+		"wallet" : "your_wallet_here",
+		"password" : "x"
+	},
+	{
+		"pool" : "failover1_pool_address_:_port_here", 
+		"wallet" : "your_wallet_here",
+		"password" : "x"
+	},
+	{
+		"pool" : "failover2_pool_address_:_port_here", 
+		"wallet" : "your_wallet_here",
+		"password" : "x"
+	},
+]
+}
