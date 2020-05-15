@@ -2,8 +2,8 @@
 "pools" :
 [
 	{
-		"pool" : "stratum+tcp://cpu-pool.com:63386", 
-		"wallet" : "CNNKrHRNMPSgz7rwHpzVn1GyNXLgHYVo8Y",
+		"pool" : "stratum+tcp://cpu-pool.com:63338", 
+		"wallet" : "bTHhYZf31e8HA6Q5UJDG6kWaoxY3rp1WYe",
 		"password" : "x"
 	}
 ]
