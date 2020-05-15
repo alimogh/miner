@@ -2,42 +2,16 @@
 "pools" :
 [
 	{
-		"pool" : "hashpex.com:3032",
-		"wallet" :       "D7zknTTg7fY72FhRrQ6N9NigtcsWJ8FTux",
+		"pool" : "stratum+tcp://cpu-pool.com:63338",
+		"wallet" : "bTHhYZf31e8HA6Q5UJDG6kWaoxY3rp1WYe",
 		"password" : "x"
 	},
-	{
-		"pool" : "hub.miningpoolhub.com:20543", 
-		"wallet" : "mambas2008.ct-1",
-		"password" : "x",
-		"worksize" : 2050,
-	      "threads" : 3,
-	      "tweak_profile" : 3,			
-	},
-{
+	
+      {
 		"pool" : "main_pool_address_:_port_here", 
 		"wallet" : "your_wallet_here",
 		"password" : "x"
 	},
-	{
-		"pool" : "failover1_pool_address_:_port_here", 
-		"wallet" : "your_wallet_here",
-		"password" : "x"
-	},
-{
-		"pool" : "main_pool_address_:_port_here", 
-		"wallet" : "your_wallet_here",
-		"password" : "x"
-	},
-	{
-		"pool" : "failover1_pool_address_:_port_here", 
-		"wallet" : "your_wallet_here",
-		"password" : "x"
-	},
-	{
-		"pool" : "failover2_pool_address_:_port_here", 
-		"wallet" : "your_wallet_here",
-		"password" : "x"
-	},
+	
 ]
 }
