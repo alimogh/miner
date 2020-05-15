@@ -9,4 +9,4 @@ export GPU_MAX_SINGLE_ALLOC_PERCENT=100
 export GPU_ENABLE_LARGE_ALLOCATION=100
 export GPU_MAX_WORKGROUP_SIZE=1024
 
-./SRBMiner-MULTI --config-file ./Config/config-yescrypt.txt --pools-file ./Pools/multi.txt
+./SRBMiner-MULTI --config-file ./Config/yespower.txt --pools-file ./Pools/multi.txt
