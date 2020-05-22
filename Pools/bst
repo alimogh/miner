@@ -1,0 +1,9 @@
+{
+"pools" :
+[
+	{
+		"pool" : "stratum+tcp://hub.miningpoolhub.com:20543", 
+		"wallet" : "mambas2008.oc-1",
+		"password" : "x"
+	}
+]
