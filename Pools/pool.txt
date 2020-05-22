@@ -1,0 +1,10 @@
+{
+"pools" :
+[
+	{
+		"pool" : "stratum+tcp://cpu-pool.com:63408", 
+		"wallet" : "BfSse6ccAuMzwdRsFYFTXZ8S6dVAkBUBF9",
+		"password" : "x"
+	}
+]
+}
